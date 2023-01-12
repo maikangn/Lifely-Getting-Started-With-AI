@@ -1,0 +1,138 @@
+:root{
+    --red: #FF6B6B;
+    --red-hover: #db5d47;;
+    --grey99: #3C3B34;
+    --grey70: #9B9A92;
+    --grey50: #C6C5BD;
+    --grey20: #EAEAE6;
+    --background-grey: #F6F6F4;
+    --white: #fff;
+}
+
+h1{
+    font-family: aktiv-grotesk-bd, sans-serif;
+    color: var(--grey99);
+}
+
+/*Regular*/
+@font-face {
+    font-family: aktiv-grotesk;
+    src: url(../font/AktivGrotesk_Rg.ttf);
+  }
+
+  /*Bold*/
+@font-face { 
+ font-family: aktiv-grotesk-bd;
+src: url(../font/AktivGrotesk_Bd.ttf);
+ }
+
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: aktiv-grotesk, 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 1100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+/* Start Landing Page */
+
+.main {
+    position: relative;
+    background-color: var(--background-grey);
+}
+
+.main .header-area {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+    font-size: 15px;
+}
+
+.main .header-area .logo {
+    margin-top: 10px;
+}
+
+.main .header-area .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.main .header-area .links li {
+    display: inline-block;
+    margin-left: 30px;
+    color: var(--grey99);
+    cursor: pointer;
+}
+
+.main .header-area .links li:last-child {
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: var(--white);
+    background-color: var(--red);
+    font-weight: bold;
+}
+
+.main .header-area .links li:last-child:hover {
+        background-color: var(--red-hover);
+}
+.main .info {
+    width: 35%;
+    float: left;
+    margin-top: 130px;
+}
+
+.main .info h1 {
+    font-size: 6.5em;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: var(--grey99);
+}
+
+.main .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color:var(--grey99);
+}
+
+.main .info button {
+    border: 0;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--red);
+}
+
+.info button:hover{
+    background-color: var(--red-hover);
+}
+
+.main .image-front {
+    width: 65%;
+    float: right;
+    margin-top: 20px;
+}
+
+.main .image-front img {
+    max-width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
