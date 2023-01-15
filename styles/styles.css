@@ -184,6 +184,7 @@ body {
     }
 
     .container{
+        width: 760px;
         display: grid;
     }
 
@@ -208,7 +209,7 @@ body {
 
     .main .header-area {
        display: grid;
-     padding: 2.5rem 0 10rem;
+     padding: 2rem 0 7rem;
       position:  relative;
         font-size: 0.8rem;
     }
@@ -226,7 +227,8 @@ body {
     .main .header-area .links li {
        display: inline;
        float: left;
-        margin-left: 30px;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
         color: var(--grey99);
         cursor: pointer;
         padding: 5px;
@@ -249,6 +251,6 @@ body {
 .main .image-front {
  width: 40%;
  margin-left: 2rem;
- margin-top: -55rem;
+ margin-top: -61rem;
 }
 }
