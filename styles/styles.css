@@ -104,6 +104,7 @@ body {
 .main .header-area .links li:last-child:hover {
         background-color: var(--red-hover);
 }
+
 .main .info {
     width: 50%;
     float: left;
@@ -173,4 +174,81 @@ body {
 
 .clearfix {
   clear: both;
+}
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        font-family: aktiv-grotesk, 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    .container{
+        display: grid;
+    }
+
+    .main .info p {
+        margin: 0;
+        line-height: 1.6;
+        font-size: 1.25rem;
+    }
+
+    .main .info h1 {
+        font-size: 2.5rem;
+        margin: 0 0 20px;
+        line-height: 1.4;
+        color: var(--grey99);
+    }
+
+    .underline {
+        text-decoration: underline;
+        text-decoration-color: var(--red);
+        text-decoration-thickness: 5px;
+    }
+
+    .main .header-area {
+       display: grid;
+     padding: 2.5rem 0 10rem;
+      position:  relative;
+        font-size: 0.8rem;
+    }
+
+    .main .header-area .links {
+        list-style: none;
+        padding:0;
+        margin: 0;
+        width: 100%;
+        text-align: right;
+        font-size: 13px;
+        font-family: aktiv-grotesk-bd, sans-serif;
+    }
+
+    .main .header-area .links li {
+       display: inline;
+       float: left;
+        margin-left: 30px;
+        color: var(--grey99);
+        cursor: pointer;
+        padding: 5px;
+    }
+    
+    .main .header-area .links li:last-child {
+        border: 0;
+        padding: 5px;
+        color: var(--grey99);
+        background-color: var(--background-grey);
+        font-weight: normal;
+        font-size: 13px;
+        font-family: aktiv-grotesk-bd, sans-serif;
+    }
+
+    .main .header-area .links li:last-child:hover {
+        background-color: var(--background-grey);
+}
+
+.main .image-front {
+ width: 40%;
+ margin-left: 2rem;
+ margin-top: -55rem;
+}
 }
