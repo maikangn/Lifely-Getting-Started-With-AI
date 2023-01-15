@@ -18,11 +18,14 @@ h2{
     font-family: aktiv-grotesk-bd, sans-serif;
 }
 
+/*Paragraph title*/
 .title {
+    font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     color: var(--grey70);
     padding-bottom: 2rem;
+    line-height: 1.5;
 }
 
 p {
@@ -123,10 +126,10 @@ body {
     color: var(--grey99);
 }
 
-.main .info p {
+.main .info .intro {
     margin: 0;
     line-height: 1.6;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 /*Buttons*/
