@@ -298,7 +298,7 @@ p span {
     }
 
     .main .info {
-        width: 60%;
+        width: 75%;
         float: left;
         margin-top: 130px;
         margin-bottom: 5rem;
@@ -389,7 +389,7 @@ p span {
         }
 
         .main .info {
-            min-width: 75%;
+            width: 80%;
             float: left;
             margin-top: 130px;
             margin-bottom: 5rem;
@@ -435,7 +435,7 @@ p span {
            display: inline;
            float: left;
             margin-left: 1rem;
-            margin-bottom: 6rem;
+            margin-bottom: 10rem;
             color: var(--grey99);
             cursor: pointer;
             padding: 5px;
