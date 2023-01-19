@@ -389,7 +389,7 @@ p span {
         }
 
         .main .info {
-            width: 75%;
+            min-width: 75%;
             float: left;
             margin-top: 130px;
             margin-bottom: 5rem;
@@ -487,6 +487,7 @@ p span {
       max-width: 675px;
       margin: 30px auto;
       padding-right: 2em;
+      margin-right: 0.7em;
       display: grid;
       grid-template-columns: 1fr 300px;
       grid-gap: 10px;
