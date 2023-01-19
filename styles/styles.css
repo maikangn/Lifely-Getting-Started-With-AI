@@ -280,7 +280,7 @@ p span {
 }
 
 
-/*
+
 @media only screen and (max-width: 767px) {
 
     body {
@@ -289,7 +289,7 @@ p span {
     }
 
     .container{
-        width: 760px;
+        width: 750px;
         display: grid;
     }
 
@@ -303,11 +303,11 @@ p span {
     .main .info p {
         margin: 0;
         line-height: 1.6;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .main .info h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin: 0 0 20px;
         line-height: 1.4;
         color: var(--grey99);
@@ -357,22 +357,21 @@ p span {
 .main .image-front {
     width: 50%;
     margin-left: 2rem;
-    margin-top: -65rem;
+    margin-top: -58rem;
    }
 
    .main .image-front img {
     max-width: 135%;
 }
-
     
 .steps {
     background-color: #fefefe;
-    max-width: 640px;
+    max-width: 570px;
     margin: 30px auto;
     padding-right: 2em;
     margin-right: 0.7em;
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 1fr 250px;
     grid-gap: 10px;
     box-shadow: 0 4px 8px 0 rgba(114, 114, 114, 0.2), 0 2px 20px 0 rgba(143, 143, 143, 0.19);
   }
@@ -380,11 +379,11 @@ p span {
   .right {
     float: left;
     justify-content: center;
+ }
 }
-}
-*/
 
 
+/*
 @media only screen and (max-width: 1024px){
 
         body {
@@ -507,4 +506,4 @@ p span {
       display: grid;
       align-items: center;
     }
-}
+}*/
