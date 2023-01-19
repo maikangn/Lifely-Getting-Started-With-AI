@@ -25,13 +25,17 @@ h2{
     letter-spacing: 0.2rem;
     color: var(--grey70);
     padding-bottom: 2rem;
-    line-height: 1.5;
 }
 
 p {
     color: var(--grey99);
+    font-family: aktiv-grotesk, sans-serif;
+    line-height: 1.7;
 }
 
+.steps-omschrijving{
+    font-size: 1.1em;
+}
 .underline {
     text-decoration: underline;
     text-decoration-color: var(--red);
@@ -57,6 +61,7 @@ src: url(../font/AktivGrotesk_Bd.ttf);
 body {
     font-family: aktiv-grotesk, 'Open Sans', sans-serif;
     font-size: 16px;
+    background-color: var(--background-grey);
 }
 
 .container {
@@ -65,6 +70,71 @@ body {
     padding-left: 15px;
     margin: auto;
 }
+
+
+/*Steps*/
+
+li, ul, p, h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h3 {
+  position: relative;
+  font-family: aktiv-grotesk-bd, sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: 0.3em;
+}
+
+/*Underline h3*/
+h3:after {
+    content: '';
+  background-color: var(--red);
+  width: 80%;
+  height: 0.17em;
+  display: block;
+  margin-top: 4px;
+
+}
+
+.undertitle {
+    font-family: AktivGrotesk_Bd, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--grey99);
+}
+
+.steps {
+  background-color: #fefefe;
+  max-width: 900px;
+  margin: 40px auto;
+  padding-right: 1em;
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  grid-gap: 10px;
+  box-shadow: 0 4px 8px 0 rgba(114, 114, 114, 0.2), 0 2px 20px 0 rgba(143, 143, 143, 0.19);
+}
+
+.left {
+    float: left;
+    display: grid;
+
+}
+.right {
+    float: right;
+    display: grid;
+
+}
+.stappen-details {
+  width: 90%;
+  margin: 2em;
+  display: grid;
+  align-items: center;
+}
+/* End steps*/
 
 /* Start Landing Page */
 
@@ -187,8 +257,8 @@ body {
     background-color: var(--grey20);
     position: relative;
     padding: 50px 30px;
+    margin-bottom: 5em;
 }
-
 .info-sprint p{
  padding: 5px;
  font-size: 1.1rem;
