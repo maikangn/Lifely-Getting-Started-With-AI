@@ -285,6 +285,7 @@ p span {
 
 
 /*Media queries*/
+/*
 @media only screen and (max-width: 767px) {
 
     body {
@@ -392,8 +393,9 @@ p span {
     justify-content: center;
 }
 }
+*/
 
-/*
+
 @media only screen and (max-width: 1024px){
 
         body {
@@ -404,10 +406,6 @@ p span {
         .container{
             width: 900px;
             display: grid;
-        }
-        .main {
-            position: relative;
-            background-color: var(--background-grey);
         }
 
         .main .info {
@@ -506,7 +504,7 @@ p span {
     
     .steps {
       background-color: #fefefe;
-      max-width: 630px;
+      max-width: 650px;
       margin: 30px auto;
       padding-right: 2em;
       margin-right: 0.7em;
@@ -518,14 +516,13 @@ p span {
     
     .right {
         float: left;
-        justify-content: center;
     }
 
     .stappen-details {
-      width: 90%;
+      width: 85%;
       margin: 2em;
       display: grid;
       align-items: center;
     }
     }
-    */
+    
