@@ -377,12 +377,12 @@ p span {
     
 .steps {
     background-color: #fefefe;
-    max-width: 575px;
+    max-width: 640px;
     margin: 30px auto;
     padding-right: 2em;
     margin-right: 0.7em;
     display: grid;
-    grid-template-columns: 1fr 250px;
+    grid-template-columns: 1fr 300px;
     grid-gap: 10px;
     box-shadow: 0 4px 8px 0 rgba(114, 114, 114, 0.2), 0 2px 20px 0 rgba(143, 143, 143, 0.19);
   }
