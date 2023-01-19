@@ -298,7 +298,7 @@ p span {
     }
 
     .main .info {
-        width: 75%;
+        width: 70%;
         float: left;
         margin-top: 130px;
         margin-bottom: 5rem;
@@ -367,12 +367,12 @@ p span {
 .image-front {
  width: 100%;
  margin-left: 2rem;
- margin-top: -61rem;
+ margin-top: -53rem;
 }
 
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1024px){
 
         body {
             font-family: aktiv-grotesk, 'Open Sans', sans-serif;
@@ -389,7 +389,7 @@ p span {
         }
 
         .main .info {
-            width: 80%;
+            width: 75%;
             float: left;
             margin-top: 130px;
             margin-bottom: 5rem;
@@ -458,7 +458,7 @@ p span {
     .main .image-front {
         width: 50%;
         margin-left: 2rem;
-        margin-top: -58rem;
+        margin-top: -60rem;
        }
 
        .main .image-front img {
@@ -484,7 +484,7 @@ p span {
     
     .steps {
       background-color: #fefefe;
-      max-width: 675px;
+      max-width: 630px;
       margin: 30px auto;
       padding-right: 2em;
       margin-right: 0.7em;
