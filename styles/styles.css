@@ -11,13 +11,9 @@
     --font-bold: 'aktiv-grotesk-bd';
 }
 
-h1{
-    font-family: aktiv-grotesk-bd, sans-serif;
+h1, h2 {
+    font-family: var(--font-bold), sans-serif;
     color: var(--grey99);
-}
-
-h2{
-    font-family: aktiv-grotesk-bd, sans-serif;
 }
 
 /*Paragraph title*/
@@ -31,7 +27,7 @@ h2{
 
 p {
     color: var(--grey99);
-    font-family: aktiv-grotesk, sans-serif;
+    font-family: var(--font-regular), sans-serif;
     line-height: 1.7;
 }
 
@@ -41,7 +37,7 @@ p {
 .underline {
     text-decoration: underline;
     text-decoration-color: var(--red);
-    text-decoration-thickness: 7px;
+    /*text-decoration-thickness: 7px;*/
 }
 
 /*Regular*/
@@ -61,7 +57,7 @@ src: url(../font/AktivGrotesk_Bd.ttf);
 }
 
 body {
-    font-family: aktiv-grotesk, 'Open Sans', sans-serif;
+    font-family: var(--font-regular), 'Open Sans', sans-serif;
     font-size: 16px;
     background-color: var(--background-grey);
 }
@@ -85,7 +81,7 @@ li, ul, p, h3 {
 
 h3 {
   position: relative;
-  font-family: aktiv-grotesk-bd, sans-serif;
+  font-family: var(--font-bold), sans-serif;
   font-size: 1.5em;
   font-weight: 500;
   margin-top: 0.3em;
@@ -103,7 +99,7 @@ h3:after {
 }
 
 .undertitle {
-    font-family: AktivGrotesk_Bd, sans-serif;
+    font-family: var(--font-bold), sans-serif;
     font-size: 1.4em;
     font-weight: bold;
     color: var(--grey99);
@@ -207,7 +203,7 @@ h3:after {
 /*Buttons*/
 .main .info .consult-button {
     border: 0;
-    font-family: aktiv-grotesk, sans-serif;
+    font-family: var(--font-regular), sans-serif;
     font-size: 14px;
     font-weight: bold;
     padding: 12px 30px;
@@ -225,7 +221,7 @@ h3:after {
 
 .discover-button {
     border: 2px solid var(--grey99);
-    font-family: aktiv-grotesk, sans-serif;
+    font-family: var(--font-regular), sans-serif;
     font-size: 14px;
     font-weight: bold;
     padding: 10px 30px;
@@ -395,7 +391,7 @@ p span {
 }
 */
 
-
+/*
 @media only screen and (max-width: 1024px){
 
         body {
@@ -525,4 +521,4 @@ p span {
       align-items: center;
     }
     }
-    
+    */
