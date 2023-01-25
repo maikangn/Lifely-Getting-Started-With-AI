@@ -8,6 +8,8 @@ De opdracht is om een nieuwe pagina te creëren voor de "AI Design Sprint", waar
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Beschrijving
+![image](https://user-images.githubusercontent.com/112856292/214675398-6088bfa2-9880-474f-944f-a4ab24e29c73.png)
+
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
