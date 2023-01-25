@@ -8,7 +8,11 @@ Lifely is een innovatiebureau die organisaties helpt om de juiste technologische
 De opdracht is om een nieuwe pagina te creëren voor de "AI Design Sprint", waarin de werkwijze van Lifely wordt weergegeven met behulp van een stappenplan. 
 
 ## Beschrijving
+### Desktopversie
 ![image](https://user-images.githubusercontent.com/112856292/214675398-6088bfa2-9880-474f-944f-a4ab24e29c73.png)
+
+### Responsive
+![image](https://user-images.githubusercontent.com/112856292/214719153-d8c5e6ad-5767-4020-aa49-2d431b5783a9.png)
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
