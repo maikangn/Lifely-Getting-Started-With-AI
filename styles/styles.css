@@ -34,6 +34,7 @@ p {
 .steps-omschrijving{
     font-size: 1.1em;
 }
+
 .underline {
     text-decoration: underline;
     text-decoration-color: var(--red);
@@ -107,6 +108,19 @@ h3 {
   color: var(--grey99);
 }
 
+/* Scroll animation */
+.hidden{
+    opacity:0;
+    transition: 1s;
+    transform: scale(0)
+  }
+
+  .show{
+    opacity: 1;
+    transform: translateY(-20px);
+    transform: scale(1);
+  }
+
 /*Underline h3*/
 h3:after {
     content: '';
@@ -115,7 +129,6 @@ h3:after {
   height: 0.17em;
   display: block;
   margin-top: 4px;
-
 }
 
 .undertitle {
@@ -220,7 +233,6 @@ h3:after {
     font-size: 1.3rem;
 }
 
-
 /*Case section*/
 .case-info{
     width: 1100px;
@@ -297,6 +309,7 @@ h3:after {
 .left:last-child {
     margin-bottom: 6em;
 }
+
 /* button case */
   .btn {
     cursor: pointer;
@@ -371,6 +384,7 @@ h3:after {
     padding: 50px 30px;
     margin-bottom: 5em;
 }
+
 .info-sprint p{
  padding: 5px;
  font-size: 1.1rem;
@@ -397,8 +411,6 @@ p span {
 .clearfix {
   clear: both;
 }
-
-
 
 
 @media only screen and (max-width: 767px) {
@@ -447,7 +459,7 @@ p span {
         width: 100%;
         text-align: right;
         font-size: 13px;
-        font-family: aktiv-grotesk-bd, sans-serif;
+        font-family: var(--font-bold), sans-serif;
     }
 
     .main .header-area .links li {
@@ -467,7 +479,7 @@ p span {
         background-color: var(--background-grey);
         font-weight: normal;
         font-size: 13px;
-        font-family: aktiv-grotesk-bd, sans-serif;
+        font-family: var(--font-bold), sans-serif;
     }
 
     .main .header-area .links li:last-child:hover {
@@ -486,7 +498,7 @@ p span {
     
 .steps {
     background-color: #fefefe;
-    max-width: 570px;
+    max-width: 650px;
     margin: 30px auto;
     padding-right: 2em;
     margin-right: 0.7em;
