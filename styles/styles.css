@@ -426,7 +426,7 @@ p span {
     }
 
     .main .info {
-        width: 78%;
+        width: 90%;
         float: left;
         margin-top: 130px;
         margin-bottom: 5rem;
@@ -488,7 +488,7 @@ p span {
 
 .main .image-front {
     width: 50%;
-    margin-left: 2rem;
+    margin-left: 4rem;
     margin-top: -58rem;
    }
 
