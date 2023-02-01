@@ -1,103 +1,103 @@
-:root{
-    --red: #A52C2C;
-    --red-hover: #722C2C;
-    --grey99: #3C3B34;
-    --grey70: #9B9A92;
-    --grey50: #C6C5BD;
-    --grey20: #EAEAE6;
-    --background-grey: #F6F6F4;
-    --white: #fff;
-    --font-regular: 'aktiv-grotesk';
-    --font-bold: 'aktiv-grotesk-bd';
+:root {
+  --red: #a52c2c;
+  --red-hover: #722c2c;
+  --grey99: #3c3b34;
+  --grey70: #9b9a92;
+  --grey50: #c6c5bd;
+  --grey20: #eaeae6;
+  --background-grey: #f6f6f4;
+  --white: #fff;
+  --font-regular: "aktiv-grotesk";
+  --font-bold: "aktiv-grotesk-bd";
 }
 
-h1, h2 {
-    font-family: var(--font-bold), sans-serif;
-    color: var(--grey99);
+h1,
+h2 {
+  font-family: var(--font-bold), sans-serif;
+  color: var(--grey99);
 }
 
 /*Paragraph title*/
 .title {
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    color: var(--grey99);
-    padding-bottom: 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: var(--grey99);
+  padding-bottom: 2rem;
 }
 
 p {
-    color: var(--grey99);
-    font-family: var(--font-regular), sans-serif;
-    line-height: 1.7;
+  color: var(--grey99);
+  font-family: var(--font-regular), sans-serif;
+  line-height: 1.7;
 }
 
-.steps-omschrijving{
-    font-size: 1.1em;
+.steps-omschrijving {
+  font-size: 1.1em;
 }
 
 .underline {
-    text-decoration: underline;
-    text-decoration-color: var(--red);
-    /*text-decoration-thickness: 7px;*/
+  text-decoration: underline;
+  text-decoration-color: var(--red);
+  /*text-decoration-thickness: 7px;*/
 }
 
 /*Regular*/
 @font-face {
-    font-family: aktiv-grotesk;
-    src: url(../font/AktivGrotesk_Rg.ttf);
-  }
+  font-family: aktiv-grotesk;
+  src: url(../font/AktivGrotesk_Rg.ttf);
+}
 
-  /*Bold*/
-@font-face { 
- font-family: aktiv-grotesk-bd;
-src: url(../font/AktivGrotesk_Bd.ttf);
- }
+/*Bold*/
+@font-face {
+  font-family: aktiv-grotesk-bd;
+  src: url(../font/AktivGrotesk_Bd.ttf);
+}
 
- * {
-    box-sizing: border-box;
-    
+* {
+  box-sizing: border-box;
 }
 
 body {
-    font-family: var(--font-regular), 'Open Sans', sans-serif;
-    font-size: 16px;
-    background-color: var(--background-grey);
+  font-family: var(--font-regular), "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: var(--background-grey);
 }
 
 .container {
-    width: 1100px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: auto;
+  width: 1100px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
 }
 
-.case-info{
- position: relative;
- margin: 0 auto;
- display: flex;
-flex-direction: column;
-background-color: var(--background-grey);
- 
+.case-info {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-grey);
 }
 
-.cases{
-        background-color: var(--background-grey);
-        position: relative;
-        padding: 50px 30px;
-        margin-bottom: 5em;
-        display: flex;
-        flex-direction: column;
+.cases {
+  background-color: var(--background-grey);
+  position: relative;
+  padding: 50px 30px;
+  margin-bottom: 5em;
+  display: flex;
+  flex-direction: column;
 }
-
 
 /*Steps*/
 
-li, ul, p, h3 {
+li,
+ul,
+p,
+h3 {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 
 h3 {
   position: relative;
@@ -109,21 +109,21 @@ h3 {
 }
 
 /* Scroll animation */
-.hidden{
-    opacity:0;
-    transition: 1s;
-    transform: scale(0)
-  }
+.hidden {
+  opacity: 0;
+  transition: 1s;
+  transform: scale(0);
+}
 
-  .show{
-    opacity: 1;
-    transform: translateY(-20px);
-    transform: scale(1);
-  }
+.show {
+  opacity: 1;
+  transform: translateY(-20px);
+  transform: scale(1);
+}
 
 /*Underline h3*/
 h3:after {
-    content: '';
+  content: "";
   background-color: var(--red);
   width: 80%;
   height: 0.17em;
@@ -132,10 +132,10 @@ h3:after {
 }
 
 .undertitle {
-    font-family: var(--font-bold), sans-serif;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: var(--grey99);
+  font-family: var(--font-bold), sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: var(--grey99);
 }
 
 .steps {
@@ -146,18 +146,17 @@ h3:after {
   display: grid;
   grid-template-columns: 1fr 420px;
   grid-gap: 10px;
-  box-shadow: 0 4px 8px 0 rgba(114, 114, 114, 0.2), 0 2px 20px 0 rgba(143, 143, 143, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(114, 114, 114, 0.2),
+    0 2px 20px 0 rgba(143, 143, 143, 0.19);
 }
 
 .left {
-    float: left;
-    display: grid;
-
+  float: left;
+  display: grid;
 }
 .right {
-    float: right;
-    display: grid;
-
+  float: right;
+  display: grid;
 }
 .stappen-details {
   width: 90%;
@@ -170,333 +169,331 @@ h3:after {
 /* Start Landing Page */
 
 .main {
-    position: relative;
-    background-color: var(--background-grey);
+  position: relative;
+  background-color: var(--background-grey);
 }
 
 .main .header-area {
-    display: flex;
-    padding: 25px 0 0;
-    position: relative;
-    font-size: 15px;
+  display: flex;
+  padding: 25px 0 0;
+  position: relative;
+  font-size: 15px;
 }
 
 .main .header-area .logo {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .main .header-area .links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    text-align: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: right;
 }
 
 .main .header-area .links li {
-    display: inline-block;
-    margin-left: 30px;
-    color: var(--grey99);
-    cursor: pointer;
+  display: inline-block;
+  margin-left: 30px;
+  color: var(--grey99);
+  cursor: pointer;
 }
 
 .main .header-area .links li:last-child {
-    border: 0;
-    padding: 10px 19px;
-    color: var(--white);
-    background-color: var(--red);
-    font-weight: bold;
-    font-size: 14px;
+  border: 0;
+  padding: 10px 19px;
+  color: var(--white);
+  background-color: var(--red);
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .main .header-area .links li:last-child:hover {
-        background-color: var(--red-hover);
+  background-color: var(--red-hover);
 }
 
 .main .info {
-    width: 50%;
-    float: left;
-    margin-top: 130px;
-    margin-bottom: 5rem;
+  width: 50%;
+  float: left;
+  margin-top: 130px;
+  margin-bottom: 5rem;
 }
 
 .main .info h1 {
-    font-size: 3.5rem;
-    margin: 0 0 20px;
-    line-height: 1.4;
-    color: var(--grey99);
+  font-size: 3.5rem;
+  margin: 0 0 20px;
+  line-height: 1.4;
+  color: var(--grey99);
 }
 
 .main .info .intro {
-    margin: 0;
-    line-height: 1.6;
-    font-size: 1.3rem;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1.3rem;
 }
 
 /*Case section*/
-.case-info{
-    width: 1100px;
-    background-color: var(--red);
+.case-info {
+  width: 1100px;
+  background-color: var(--red);
 }
 
-.case-ruler{
-    width: 40%;
-    float: left;
-    margin-top: 130px;
-    margin-bottom: 5rem;
+.case-ruler {
+  width: 40%;
+  float: left;
+  margin-top: 130px;
+  margin-bottom: 5rem;
 }
 
-.case-toptaal{
-    width: 40%;
-    float: right;
-    margin-top: 5em;
+.case-toptaal {
+  width: 40%;
+  float: right;
+  margin-top: 5em;
 }
 
 .content {
-    width: 40%;
-    padding: 50px 0 0 30px;
-  }
+  width: 40%;
+  padding: 50px 0 0 30px;
+}
 
-  .cases {
-    width: 100%;
-    height: 40em;
-    background: url('../assets/Ruler.jpg') no-repeat center center/cover;
-    position: relative;
-    padding: 1em;
-    display: flex;
-    background-color: var(--grey20);
-  }
+.cases {
+  width: 100%;
+  height: 40em;
+  background: url("../assets/Ruler.jpg") no-repeat center center/cover;
+  position: relative;
+  padding: 1em;
+  display: flex;
+  background-color: var(--grey20);
+}
 
-  .cases .content {
-    width: 55%;
-    padding: 0.7em 0 0 2em;
-  }
+.cases .content {
+  width: 55%;
+  padding: 0.7em 0 0 2em;
+}
 
-  .cases p{
-    margin: 10px 0 20px;
-    color: var(--white);
-  }
+.cases p {
+  margin: 10px 0 20px;
+  color: var(--white);
+}
 
-  .cases h2 {
-    margin: 10px 0 20px;
-    color: var(--white);
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    letter-spacing: 0.25rem;
-    text-shadow: 1px 1px 2px var(--grey99);
-  }
+.cases h2 {
+  margin: 10px 0 20px;
+  color: var(--white);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  text-shadow: 1px 1px 2px var(--grey99);
+}
 
-  .cases .case-title{
-    font-size: 1.2em;
-    font-weight: bold;
-    letter-spacing: 0.05em;
-    color: var(--background-grey);
-    text-shadow: 1px 1px 2px var(--grey99);
-  }
+.cases .case-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  color: var(--background-grey);
+  text-shadow: 1px 1px 2px var(--grey99);
+}
 
-  .case-desc{
-    font-family: var(--font-bold);
-    font-size: 3em;
-    text-shadow: 1px 1px 2px var(--grey99);
-  }
-  .cases-wrapper {
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-  }
+.case-desc {
+  font-family: var(--font-bold);
+  font-size: 3em;
+  text-shadow: 1px 1px 2px var(--grey99);
+}
+.cases-wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
 
-  /*whitespace beneath last step*/
+/*whitespace beneath last step*/
 .left:last-child {
-    margin-bottom: 6em;
+  margin-bottom: 6em;
 }
 
 /* button case */
-  .btn {
-    cursor: pointer;
-    display: inline-block;
-    border: 0;
-    font-weight: bold;
-    padding: 10px 20px;
-    background: #ffffff;
-    color: var(--grey99);
-    font-size: 1em;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    opacity: 0.9;
-  }
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #ffffff;
+  color: var(--grey99);
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
 
 /*Buttons*/
 .main .info .consult-button {
-    border: 0;
-    font-family: var(--font-regular), sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 12px 30px;
-    margin-top: 30px;
-    margin-right: 10px;
-    cursor: pointer;
-    color: var(--white);
-    background-color: var(--red);
+  border: 0;
+  font-family: var(--font-regular), sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--red);
 }
 
-.info .consult-button:hover{
-    background-color: var(--red-hover);
-    transition: 0.3s;
+.info .consult-button:hover {
+  background-color: var(--red-hover);
+  transition: 0.3s;
 }
 
 .discover-button {
-    border: 2px solid var(--grey99);
-    font-family: var(--font-regular), sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 10px 30px;
-    margin-top: 30px;
-    cursor: pointer;
-    color: var(--grey99);
-    background-color: var(--white);
+  border: 2px solid var(--grey99);
+  font-family: var(--font-regular), sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: var(--grey99);
+  background-color: var(--white);
 }
 
-.info .discover-button:hover{
- border: 0;
- padding: 11.5px 30px;
- color: var(--white);
- background-color: var(--red-hover);
- transition: 0.3s;
+.info .discover-button:hover {
+  border: 0;
+  padding: 11.5px 30px;
+  color: var(--white);
+  background-color: var(--red-hover);
+  transition: 0.3s;
 }
 
 /*Afbeelding voorpagina*/
 .main .image-front {
-    width: 50%;
-    float: right;
-    margin-top: 5em;
+  width: 50%;
+  float: right;
+  margin-top: 5em;
 }
 
 .main .image-front img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /* AI Design Sprint section */
-.design-sprint{
-    background-color: var(--grey20);
-    position: relative;
-    padding: 50px 30px;
-    margin-bottom: 5em;
+.design-sprint {
+  background-color: var(--grey20);
+  position: relative;
+  padding: 50px 30px;
+  margin-bottom: 5em;
 }
 
-.info-sprint p{
- padding: 5px;
- font-size: 1.1rem;
- text-align: center;
- max-width: 40em;
- margin: 0 auto;
- line-height: 1.7;
+.info-sprint p {
+  padding: 5px;
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 40em;
+  margin: 0 auto;
+  line-height: 1.7;
 }
 
-.info-sprint h2{
-    text-align: center;
-   font-size: 2rem;
-   margin: 0 auto;
+.info-sprint h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 auto;
 }
 
-.italic{
-    font-style: italic;
+.italic {
+  font-style: italic;
 }
 
 p span {
-    display: block;
+  display: block;
 }
 
 .clearfix {
   clear: both;
 }
 
-
 @media only screen and (max-width: 767px) {
+  body {
+    font-family: aktiv-grotesk, "Open Sans", sans-serif;
+    font-size: 12px;
+  }
 
-    body {
-        font-family: aktiv-grotesk, 'Open Sans', sans-serif;
-        font-size: 12px;
-    }
+  .container {
+    width: 750px;
+    display: grid;
+  }
 
-    .container{
-        width: 750px;
-        display: grid;
-    }
+  .main .info {
+    width: 90%;
+    float: left;
+    margin-top: 130px;
+    margin-bottom: 5rem;
+  }
 
-    .main .info {
-        width: 90%;
-        float: left;
-        margin-top: 130px;
-        margin-bottom: 5rem;
-    }
+  .main .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
 
-    .main .info p {
-        margin: 0;
-        line-height: 1.6;
-        font-size: 1rem;
-    }
+  .main .info h1 {
+    font-size: 2rem;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: var(--grey99);
+  }
 
-    .main .info h1 {
-        font-size: 2rem;
-        margin: 0 0 20px;
-        line-height: 1.4;
-        color: var(--grey99);
-    }
+  .main .header-area {
+    display: grid;
+    padding: 2rem 0 7rem;
+    position: relative;
+    font-size: 0.8rem;
+  }
 
-    .main .header-area {
-       display: grid;
-     padding: 2rem 0 7rem;
-      position:  relative;
-        font-size: 0.8rem;
-    }
+  .main .header-area .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 13px;
+    font-family: var(--font-bold), sans-serif;
+  }
 
-    .main .header-area .links {
-        list-style: none;
-        padding:0;
-        margin: 0;
-        width: 100%;
-        text-align: right;
-        font-size: 13px;
-        font-family: var(--font-bold), sans-serif;
-    }
+  .main .header-area .links li {
+    display: inline;
+    float: left;
+    margin-left: 1rem;
+    margin-bottom: 10em;
+    color: var(--grey99);
+    cursor: pointer;
+    padding: 5px;
+  }
 
-    .main .header-area .links li {
-       display: inline;
-       float: left;
-        margin-left: 1rem;
-        margin-bottom: 10em;
-        color: var(--grey99);
-        cursor: pointer;
-        padding: 5px;
-    }
-    
-    .main .header-area .links li:last-child {
-        border: 0;
-        padding: 5px;
-        color: var(--grey99);
-        background-color: var(--background-grey);
-        font-weight: normal;
-        font-size: 13px;
-        font-family: var(--font-bold), sans-serif;
-    }
+  .main .header-area .links li:last-child {
+    border: 0;
+    padding: 5px;
+    color: var(--grey99);
+    background-color: var(--background-grey);
+    font-weight: normal;
+    font-size: 13px;
+    font-family: var(--font-bold), sans-serif;
+  }
 
-    .main .header-area .links li:last-child:hover {
-        background-color: var(--background-grey);
-}
+  .main .header-area .links li:last-child:hover {
+    background-color: var(--background-grey);
+  }
 
-.main .image-front {
+  .main .image-front {
     width: 50%;
     margin-left: 4rem;
     margin-top: -58rem;
-   }
+  }
 
-   .main .image-front img {
+  .main .image-front img {
     max-width: 135%;
-}
-    
-.steps {
+  }
+
+  .steps {
     background-color: #fefefe;
     max-width: 650px;
     margin: 30px auto;
@@ -505,16 +502,16 @@ p span {
     display: grid;
     grid-template-columns: 1fr 250px;
     grid-gap: 10px;
-    box-shadow: 0 4px 8px 0 rgba(114, 114, 114, 0.2), 0 2px 20px 0 rgba(143, 143, 143, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(114, 114, 114, 0.2),
+      0 2px 20px 0 rgba(143, 143, 143, 0.19);
   }
 
   .right {
     float: left;
     justify-content: center;
- }
+  }
 
- 
- .carbon h2 {
+  .carbon h2 {
     margin: 10px 0 20px;
     color: var(--white);
     font-size: 1rem;
@@ -522,19 +519,18 @@ p span {
     letter-spacing: 0.25rem;
   }
 
-  .carbon .case-title{
+  .carbon .case-title {
     font-size: 1em;
     font-weight: bold;
     letter-spacing: 0.05em;
     color: var(--background-grey);
   }
 
-  .case-desc{
+  .case-desc {
     font-family: var(--font-bold);
     font-size: 1.7em;
   }
 }
-
 
 /*
 @media only screen and (max-width: 1024px){
