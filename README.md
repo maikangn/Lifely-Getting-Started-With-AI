@@ -10,6 +10,7 @@ De opdracht is om een nieuwe pagina te creëren voor de "AI Design Sprint", waar
 ## Beschrijving
 ### Desktopversie
 ![image](https://user-images.githubusercontent.com/112856292/214675398-6088bfa2-9880-474f-944f-a4ab24e29c73.png)
+![Animatie](https://user-images.githubusercontent.com/112856292/216209819-5d144c1d-d494-4ca2-bc84-9afc5ca33747.gif)
 
 ### Responsive
 ![image](https://user-images.githubusercontent.com/112856292/214719153-d8c5e6ad-5767-4020-aa49-2d431b5783a9.png)
